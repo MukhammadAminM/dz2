@@ -2,9 +2,9 @@ let user = 'Alex'
 let account = 7777
 let money = 10000
 
-let name = prompt('user')
+let name = prompt('как вас зовут')
 if(name == user){
-    let password = prompt('account')
+    let password = prompt('номер счета')
     if(password == account){
         let cash = confirm('Снять наличные?')
         if(cash){
